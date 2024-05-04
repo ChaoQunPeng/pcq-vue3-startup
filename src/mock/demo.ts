@@ -2,7 +2,7 @@
  * @Author: PengChaoQun 1152684231@qq.com
  * @Date: 2024-01-30 19:14:17
  * @LastEditors: PengChaoQun 1152684231@qq.com
- * @LastEditTime: 2024-05-02 13:46:18
+ * @LastEditTime: 2024-05-04 21:00:04
  * @FilePath: /pcq-vue3-startup/src/mock/demo.ts
  * @Description:
  */
@@ -12,9 +12,9 @@ import { type MockMethod } from 'vite-plugin-mock';
 
 import { SuccessModel } from '../api/config/model';
 
-function regUrl(url: string) {
-  return RegExp(url + '.*');
-}
+// function regUrl(url: string) {
+//   return RegExp(url + '.*');
+// }
 
 export default [
   {
